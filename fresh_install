@@ -28,7 +28,7 @@ brew install python3
 pip install virtualenv
 pip install virtualenvwrapper
 
-defaults import com.googlecode.iterm2 dotfiles/com.googlecode.iterm2.plist
+defaults import com.googlecode.iterm2 cfgfiles/com.googlecode.iterm2.plist
 
 brew install zsh zsh-completions
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
