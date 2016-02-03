@@ -1,4 +1,4 @@
-export ZSH=/Users/nick/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/ for all themes
 ZSH_THEME="robbyrussell"
 
