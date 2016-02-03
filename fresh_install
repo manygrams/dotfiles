@@ -32,5 +32,5 @@ defaults import com.googlecode.iterm2 cfgfiles/com.googlecode.iterm2.plist
 brew install zsh zsh-completions
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 rm ~/.zshrc
-cp dotfiles/zshrc ~/.zshrc
-chsh -s /bin/zsh
+
+source linker.sh
