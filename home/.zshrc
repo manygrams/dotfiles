@@ -3,7 +3,7 @@ export ZSH=~/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-plugins=(gitfast python rails pyenv brew brew-cask rake-fast ruby rbenv)
+plugins=(gitfast python rails pyenv brew brew-cask rake-fast ruby rbenv bundler)
 
 # User configuration
 
