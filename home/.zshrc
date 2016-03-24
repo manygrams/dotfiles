@@ -10,6 +10,8 @@ plugins=(gitfast python rails pyenv brew brew-cask rake-fast ruby rbenv bundler)
 export PATH="/Users/nick/.rbenv/shims:/usr/local/bin:/usr/local/share/npm/bin:/Users/nick/.rbenv/bin:/Users/nick/.rbenv/shims:/usr/local/bin:/Users/nick/.bin:/usr/local/heroku/bin:/Users/nick/android-sdk-mac/tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source $ZSH/oh-my-zsh.sh
 
+export PYTHON_ENV=remote_development
+
 export WORKON_HOME=~/.virtualenvs
 source $(brew --prefix)/bin/virtualenvwrapper.sh
 
