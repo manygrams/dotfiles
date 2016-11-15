@@ -11,13 +11,13 @@ export PATH="/Users/nick/.rbenv/shims:/usr/local/bin:/usr/local/share/npm/bin:/U
 source $ZSH/oh-my-zsh.sh
 
 export PYTHON_ENV=remote_development
-
+export JAVA_HOME=$(/usr/libexec/java_home)
 export WORKON_HOME=~/.virtualenvs
 source $(brew --prefix)/bin/virtualenvwrapper.sh
 
 ssh-add
 syspip(){
-   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+   PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
 }
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 clear
