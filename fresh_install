@@ -18,6 +18,7 @@ brew cask install alfred
 brew cask install iterm2
 brew cask install textexpander
 brew cask install banktivity
+brew install Caskroom/cask/seashore
 
 brew install rbenv
 
