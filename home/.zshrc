@@ -12,8 +12,6 @@ source $ZSH/oh-my-zsh.sh
 
 export PYTHON_ENV=remote_development
 export JAVA_HOME=$(/usr/libexec/java_home)
-export WORKON_HOME=~/.virtualenvs
-source $(brew --prefix)/bin/virtualenvwrapper.sh
 
 ssh-add
 syspip(){
@@ -21,3 +19,5 @@ syspip(){
 }
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 clear
+
+[ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
